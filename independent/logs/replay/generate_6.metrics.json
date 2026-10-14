@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "-u",
+    "AUDIT_WORKSPACE/extracted/family169_atlas_v1.0.0/src/generate.py",
+    "--out",
+    "AUDIT_WORKSPACE/replay-v1/atlas",
+    "--min-n",
+    "6",
+    "--max-n",
+    "6"
+  ],
+  "started_utc": "2026-10-14T02:59:52.501887+00:00",
+  "elapsed_seconds": 2.7445535000879318,
+  "child_user_seconds": 2.673301,
+  "child_system_seconds": 0.048284999999999995,
+  "peak_child_rss_bytes": 28131328,
+  "address_space_limit_bytes": null,
+  "timeout_seconds": 599.0201999591663,
+  "timed_out": false,
+  "return_code": 0,
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+}

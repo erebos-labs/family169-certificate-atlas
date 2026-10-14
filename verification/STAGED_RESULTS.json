@@ -1,0 +1,328 @@
+{
+  "event": "publication_checks_pass",
+  "stages": [
+    {
+      "stage": "hashes",
+      "return_code": 0,
+      "seconds": 0.04846145794726908
+    },
+    {
+      "stage": "full-normal-replay",
+      "return_code": 0,
+      "seconds": 22.067006582859904
+    },
+    {
+      "stage": "independent",
+      "return_code": 0,
+      "seconds": 1.7973713749088347
+    },
+    {
+      "stage": "optimized-core",
+      "return_code": 0,
+      "seconds": 8.15067945793271
+    },
+    {
+      "stage": "optimized-mutations",
+      "return_code": 0,
+      "seconds": 9.902969415998086
+    },
+    {
+      "stage": "extra-probes",
+      "return_code": 0,
+      "seconds": 1.8382516668643802
+    },
+    {
+      "stage": "hashes-after",
+      "return_code": 0,
+      "seconds": 0.048011792125180364
+    }
+  ],
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "replay": {
+    "event": "replay_pass",
+    "max_n": 6,
+    "graphs": 197,
+    "byte_identical_dataset_files": 205,
+    "elapsed_seconds": 21.97889612498693,
+    "stage_wall_seconds": 21.560753457713872,
+    "peak_child_rss_bytes": 31981568
+  },
+  "independent": {
+    "event": "independent_audit_pass",
+    "methods": [
+      "ordered_set_partitions",
+      "residual_column_recurrence",
+      "insertion_permutations",
+      "subset_dp_determinant"
+    ],
+    "totals": {
+      "graphs": 197,
+      "colour_candidates": 6293571,
+      "proper_colourings": 2278500,
+      "packed_proper_colourings": 332019,
+      "permutation_candidates": 100452,
+      "witness_rows": 11465,
+      "raw_coefficients": 157308,
+      "elementary_coefficients": 2207
+    },
+    "by_n": [
+      {
+        "graphs": 1,
+        "colour_candidates": 1,
+        "proper_colourings": 1,
+        "packed_proper_colourings": 1,
+        "permutation_candidates": 1,
+        "witness_rows": 1,
+        "raw_coefficients": 1,
+        "elementary_coefficients": 1,
+        "n": 0
+      },
+      {
+        "graphs": 1,
+        "colour_candidates": 1,
+        "proper_colourings": 1,
+        "packed_proper_colourings": 1,
+        "permutation_candidates": 1,
+        "witness_rows": 1,
+        "raw_coefficients": 1,
+        "elementary_coefficients": 1,
+        "n": 1
+      },
+      {
+        "graphs": 2,
+        "colour_candidates": 8,
+        "proper_colourings": 6,
+        "packed_proper_colourings": 5,
+        "permutation_candidates": 4,
+        "witness_rows": 3,
+        "raw_coefficients": 5,
+        "elementary_coefficients": 3,
+        "n": 2
+      },
+      {
+        "graphs": 5,
+        "colour_candidates": 135,
+        "proper_colourings": 81,
+        "packed_proper_colourings": 47,
+        "permutation_candidates": 30,
+        "witness_rows": 15,
+        "raw_coefficients": 51,
+        "elementary_coefficients": 13,
+        "n": 3
+      },
+      {
+        "graphs": 14,
+        "colour_candidates": 3584,
+        "proper_colourings": 1780,
+        "packed_proper_colourings": 671,
+        "permutation_candidates": 336,
+        "witness_rows": 105,
+        "raw_coefficients": 655,
+        "elementary_coefficients": 65,
+        "n": 4
+      },
+      {
+        "graphs": 42,
+        "colour_candidates": 131250,
+        "proper_colourings": 55125,
+        "packed_proper_colourings": 12977,
+        "permutation_candidates": 5040,
+        "witness_rows": 945,
+        "raw_coefficients": 9493,
+        "elementary_coefficients": 336,
+        "n": 5
+      },
+      {
+        "graphs": 132,
+        "colour_candidates": 6158592,
+        "proper_colourings": 2221506,
+        "packed_proper_colourings": 318317,
+        "permutation_candidates": 95040,
+        "witness_rows": 10395,
+        "raw_coefficients": 147102,
+        "elementary_coefficients": 1788,
+        "n": 6
+      }
+    ],
+    "basis": [
+      {
+        "n": 0,
+        "dimension": 1,
+        "determinant": 1
+      },
+      {
+        "n": 1,
+        "dimension": 1,
+        "determinant": 1
+      },
+      {
+        "n": 2,
+        "dimension": 2,
+        "determinant": -1
+      },
+      {
+        "n": 3,
+        "dimension": 3,
+        "determinant": -1
+      },
+      {
+        "n": 4,
+        "dimension": 5,
+        "determinant": 1
+      },
+      {
+        "n": 5,
+        "dimension": 7,
+        "determinant": -1
+      },
+      {
+        "n": 6,
+        "dimension": 11,
+        "determinant": -1
+      }
+    ],
+    "seconds": 1.7185209998860955,
+    "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+  },
+  "probes": {
+    "event": "additional_probes_pass",
+    "probes": [
+      {
+        "case": "consistent_wrong_partition",
+        "optimized": false,
+        "return_code": 1,
+        "expected": "coefficient_identity",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "inverted_degree_convention",
+        "optimized": false,
+        "return_code": 1,
+        "expected": "wrong_graph_inversion_degree",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "forbidden_nonedge_descent",
+        "optimized": false,
+        "return_code": 1,
+        "expected": "nonpermitted_permutation",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "boolean_degree",
+        "optimized": false,
+        "return_code": 1,
+        "expected": "degree_bound",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "missing_raw_term",
+        "optimized": false,
+        "return_code": 1,
+        "expected": "colouring_table_mismatch",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "basis_inverse",
+        "optimized": false,
+        "return_code": 1,
+        "expected": "basis_inverse_product",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "basis_matrix",
+        "optimized": false,
+        "return_code": 1,
+        "expected": "basis_matrix",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "basis_determinant",
+        "optimized": false,
+        "return_code": 1,
+        "expected": "basis_determinant",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "core_ignores_basis",
+        "optimized": false,
+        "return_code": 0,
+        "expected": "verification_pass",
+        "accepted_as_intended": true
+      },
+      {
+        "case": "consistent_wrong_partition",
+        "optimized": true,
+        "return_code": 1,
+        "expected": "coefficient_identity",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "inverted_degree_convention",
+        "optimized": true,
+        "return_code": 1,
+        "expected": "wrong_graph_inversion_degree",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "forbidden_nonedge_descent",
+        "optimized": true,
+        "return_code": 1,
+        "expected": "nonpermitted_permutation",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "boolean_degree",
+        "optimized": true,
+        "return_code": 1,
+        "expected": "degree_bound",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "missing_raw_term",
+        "optimized": true,
+        "return_code": 1,
+        "expected": "colouring_table_mismatch",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "basis_inverse",
+        "optimized": true,
+        "return_code": 1,
+        "expected": "basis_inverse_product",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "basis_matrix",
+        "optimized": true,
+        "return_code": 1,
+        "expected": "basis_matrix",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "basis_determinant",
+        "optimized": true,
+        "return_code": 1,
+        "expected": "basis_determinant",
+        "accepted_as_intended": false
+      },
+      {
+        "case": "core_ignores_basis",
+        "optimized": true,
+        "return_code": 0,
+        "expected": "verification_pass",
+        "accepted_as_intended": true
+      },
+      {
+        "case": "independent_wrong_partition",
+        "rejected": true
+      }
+    ],
+    "rejections": 17,
+    "intentional_acceptances": 2,
+    "seconds": 1.7807772499509156
+  },
+  "verified_utc": "2026-10-14T03:20:09.170409+00:00"
+}

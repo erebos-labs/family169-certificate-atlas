@@ -1,0 +1,9 @@
+{
+  "event": "replay_pass",
+  "max_n": 6,
+  "graphs": 197,
+  "byte_identical_dataset_files": 205,
+  "elapsed_seconds": 22.46148083289154,
+  "stage_wall_seconds": 21.99280087510124,
+  "peak_child_rss_bytes": 31440896
+}

@@ -1,0 +1,8 @@
+{
+  "event": "baseline_preservation_pass",
+  "file_hash_checks": 99,
+  "baselines": [
+    "n_le4.sha256",
+    "n_le5.sha256"
+  ]
+}

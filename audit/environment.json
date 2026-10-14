@@ -1,0 +1,15 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "byteorder": "little",
+  "dependencies": "Python standard library only",
+  "minimum_syntax_version": "Python 3.10",
+  "tested_python": "3.13.5",
+  "operating_systems_tested": [
+    "Linux x86_64"
+  ],
+  "macOS_tested": false,
+  "linux_stage_RLIMIT_AS_bytes": 2000000000,
+  "macOS_stage_memory_note": "run_stage records RSS and replay applies a measured projection; RLIMIT_AS is intentionally Linux-only."
+}

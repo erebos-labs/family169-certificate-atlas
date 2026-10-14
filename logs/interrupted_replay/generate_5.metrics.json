@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "-u",
+    "ORIGINAL_WORKSPACE/family169_atlas_v1.0.0/src/generate.py",
+    "--out",
+    "ORIGINAL_WORKSPACE/family169_clean_replay_v1/atlas",
+    "--min-n",
+    "5",
+    "--max-n",
+    "5"
+  ],
+  "started_utc": "2026-10-14T02:36:03.589719+00:00",
+  "elapsed_seconds": 0.8830806820000134,
+  "child_user_seconds": 1.143167,
+  "child_system_seconds": 0.07225999999999999,
+  "peak_child_rss_bytes": 99749888,
+  "address_space_limit_bytes": 2000000000,
+  "timeout_seconds": 7195.958534575,
+  "timed_out": false,
+  "return_code": 0,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+}

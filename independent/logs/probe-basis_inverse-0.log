@@ -1,0 +1,20 @@
+{"all_permutations": 6, "colour_candidates": 27, "edges": 0, "event": "verified", "h": [1, 2, 3], "monomial_q_entries": 10, "n": 3, "nonzero_elementary_q_entries": 1, "permitted_permutations": 1, "proper_colourings": 27, "seconds": 0.00016479101032018661, "symmetry_comparisons": 20}
+{"all_permutations": 6, "colour_candidates": 27, "edges": 1, "event": "verified", "h": [1, 3, 3], "monomial_q_entries": 14, "n": 3, "nonzero_elementary_q_entries": 2, "permitted_permutations": 2, "proper_colourings": 18, "seconds": 0.00011187512427568436, "symmetry_comparisons": 28}
+{"all_permutations": 6, "colour_candidates": 27, "edges": 1, "event": "verified", "h": [2, 2, 3], "monomial_q_entries": 14, "n": 3, "nonzero_elementary_q_entries": 2, "permitted_permutations": 2, "proper_colourings": 18, "seconds": 8.066697046160698e-05, "symmetry_comparisons": 28}
+{"all_permutations": 6, "colour_candidates": 27, "edges": 2, "event": "verified", "h": [2, 3, 3], "monomial_q_entries": 9, "n": 3, "nonzero_elementary_q_entries": 4, "permitted_permutations": 4, "proper_colourings": 12, "seconds": 7.43749551475048e-05, "symmetry_comparisons": 18}
+{"all_permutations": 6, "colour_candidates": 27, "edges": 3, "event": "verified", "h": [3, 3, 3], "monomial_q_entries": 4, "n": 3, "nonzero_elementary_q_entries": 4, "permitted_permutations": 6, "proper_colourings": 6, "seconds": 6.420793943107128e-05, "symmetry_comparisons": 8}
+Traceback (most recent call last):
+  File "AUDIT_WORKSPACE/extracted/family169_atlas_v1.0.0/src/verify.py", line 382, in <module>
+    main()
+    ~~~~^^
+  File "AUDIT_WORKSPACE/extracted/family169_atlas_v1.0.0/src/verify.py", line 374, in main
+    print(json.dumps(audit_basis(args.atlas / "basis" / f"n{n:02d}.json", n)), flush=True)
+                     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "AUDIT_WORKSPACE/extracted/family169_atlas_v1.0.0/src/verify.py", line 309, in audit_basis
+    check(all(sum(matrix[i][k] * inv[k][j] for k in range(size)) == int(i == j)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              for i in range(size) for j in range(size)), "basis_inverse_product")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "AUDIT_WORKSPACE/extracted/family169_atlas_v1.0.0/src/verify.py", line 31, in check
+    raise VerificationError(code, detail)
+VerificationError: basis_inverse_product: 

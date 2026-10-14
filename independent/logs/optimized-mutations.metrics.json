@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "-O",
+    "src/mutation_tests.py",
+    "--atlas",
+    "atlas"
+  ],
+  "started_utc": "2026-10-14T03:04:52.827729+00:00",
+  "elapsed_seconds": 9.976179749937728,
+  "child_user_seconds": 9.886902,
+  "child_system_seconds": 0.047755,
+  "peak_child_rss_bytes": 32063488,
+  "address_space_limit_bytes": null,
+  "timeout_seconds": 120.0,
+  "timed_out": false,
+  "return_code": 0,
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+}

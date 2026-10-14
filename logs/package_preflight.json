@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "python_sources_syntax_checked": 6,
+  "baseline_hashes_rechecked": 99,
+  "original_mutation_log_counts_rechecked": [
+    96,
+    792
+  ],
+  "raw_data_files": 205,
+  "notes": "Hash manifest and ZIP integrity are checked after this preflight. This record does not pre-claim those checks."
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "local_name": "Model.lean",
+    "path": "lean/OAI/Combinatorics/Chromatic/Model.lean",
+    "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Chromatic/Model.lean",
+    "bytes": 2032,
+    "sha256": "b5ff241c30d9699119871a67c9d131daf7ea6357d43459075f758aeefd25638a",
+    "git_blob_sha1": "88184ce94d0c4462d84cf9756daf52443c48f121",
+    "expected_blob_matched": true
+  },
+  {
+    "local_name": "Comparator.lean",
+    "path": "lean/ComparatorChallenges/ElementaryPositivity.lean",
+    "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/ComparatorChallenges/ElementaryPositivity.lean",
+    "bytes": 2174,
+    "sha256": "7cdb9739c3f71939cb78efb4472721a95eda2c15cdf99e7ab2c8038b69f07bef",
+    "git_blob_sha1": "2e90d68d97df418c71af9bf5080711c8a2b349ef",
+    "expected_blob_matched": null
+  },
+  {
+    "local_name": "Main.lean",
+    "path": "lean/OAI/Combinatorics/Chromatic/Main.lean",
+    "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Chromatic/Main.lean",
+    "bytes": 1445,
+    "sha256": "55232993dbec14b6ade95820c8381791bbb42fb2f8e3e9ec159bbf528d5d3607",
+    "git_blob_sha1": "12abe371e589d0b2ca4548b3c90631afb030aa7f",
+    "expected_blob_matched": true
+  },
+  {
+    "local_name": "HistoryMainWitness.lean",
+    "path": "lean/OAI/Combinatorics/Chromatic/Witness/HistoryMainWitness.lean",
+    "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Chromatic/Witness/HistoryMainWitness.lean",
+    "bytes": 8885,
+    "sha256": "33e52f24d925fed85fe767e841c235815adffcb828f7bfd7844c7bc93be88c11",
+    "git_blob_sha1": "8821ea02ab4f7b80dda62c9bbad26f02859c0519",
+    "expected_blob_matched": true
+  },
+  {
+    "local_name": "01-introduction.tex",
+    "path": "preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/01-introduction.tex",
+    "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/01-introduction.tex",
+    "bytes": 15941,
+    "sha256": "10e0c45e1bb975155096768fd77d3d93da69bc4f9d28993d72da03363ed7e64a",
+    "git_blob_sha1": "e89126f6bb1ff7dbaf7fd0f904d9f186f8493634",
+    "expected_blob_matched": true
+  },
+  {
+    "local_name": "02-graphs.tex",
+    "path": "preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/02-graphs.tex",
+    "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/02-graphs.tex",
+    "bytes": 10872,
+    "sha256": "0a90807bc64e1d2cfb402826297572f13856be07da344c53c95580b36a562008",
+    "git_blob_sha1": "19f561b75407b506a431701ace7a1c0ccff3f5b9",
+    "expected_blob_matched": true
+  },
+  {
+    "local_name": "06-witness.tex",
+    "path": "preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/06-witness.tex",
+    "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/06-witness.tex",
+    "bytes": 29051,
+    "sha256": "8ef0cd77af2b084746f2be648cb4b92459c6d9b4061c49302c92ccd11feac9c8",
+    "git_blob_sha1": "b49930f6369148e682db748c841a9231996886c8",
+    "expected_blob_matched": true
+  },
+  {
+    "local_name": "07-completion.tex",
+    "path": "preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/07-completion.tex",
+    "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/07-completion.tex",
+    "bytes": 1716,
+    "sha256": "a556493f222b42dc1e27b77ba47c9845af69cbd4c0a35e83f66992a585ab1cf8",
+    "git_blob_sha1": "fb4532c9d38f40e53d3ad346e9fc7628272404c0",
+    "expected_blob_matched": true
+  },
+  {
+    "local_name": "ElementaryAlphabetRigidity.lean",
+    "path": "lean/OAI/Combinatorics/Chromatic/Witness/ElementaryAlphabetRigidity.lean",
+    "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Chromatic/Witness/ElementaryAlphabetRigidity.lean",
+    "bytes": 6864,
+    "sha256": "11bab1966768fc097437b35578e8f3a1944ef5985c8abe51ba3d860f00942d3a",
+    "git_blob_sha1": "34423afdca4c9fae2b5883fdfff136ef4ca70a91",
+    "expected_blob_matched": true
+  }
+]

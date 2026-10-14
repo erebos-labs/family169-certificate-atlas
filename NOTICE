@@ -1,0 +1,27 @@
+Family 169 finite certificate atlas, public release v1.0.1
+Published by Erebos Labs.
+
+The Python implementation, generated certificate data and explanatory notes are
+provided under the Apache License, Version 2.0, included as LICENSE.
+
+Mathematical specification and formalization antecedent:
+  openai/math contributors
+  commit 1581d4cbdd69a0faf34b2089614fe2a814316a6a
+  family 169, Elementary positivity of chromatic quasisymmetric functions.
+Their graph/witness definitions and finite-test design are inherited, not claimed
+as original contributions. See audit/SOURCE_AUDIT.md and PROVENANCE.json.
+The included LICENSE text is byte-identical to the pinned upstream license.
+
+SageMath's official computational documentation is acknowledged. No SageMath
+code or third-party mathematical implementation is included or called.
+
+The certificate map is synthesized from finite coefficient counts. It does not
+reproduce the paper's packet/wall map or Lean's Encodable.choose-selected table.
+No new general theorem, novelty, priority, kernel verification or human referee
+review is claimed. Implementation and independent agent audit were AI-assisted.
+
+The original private v1.0.0 handoff and audit remain preserved locally. Unchanged
+historical documents in historical/ describe their earlier preparation status.
+Public log copies redact absolute runtime paths only; original mathematical data
+and six original scripts remain byte-identical. Release packaging and current
+execution/review status are described in README.md and STATUS.md.

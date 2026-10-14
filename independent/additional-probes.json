@@ -1,0 +1,138 @@
+{
+  "event": "additional_probes_pass",
+  "probes": [
+    {
+      "case": "consistent_wrong_partition",
+      "optimized": false,
+      "return_code": 1,
+      "expected": "coefficient_identity",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "inverted_degree_convention",
+      "optimized": false,
+      "return_code": 1,
+      "expected": "wrong_graph_inversion_degree",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "forbidden_nonedge_descent",
+      "optimized": false,
+      "return_code": 1,
+      "expected": "nonpermitted_permutation",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "boolean_degree",
+      "optimized": false,
+      "return_code": 1,
+      "expected": "degree_bound",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "missing_raw_term",
+      "optimized": false,
+      "return_code": 1,
+      "expected": "colouring_table_mismatch",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "basis_inverse",
+      "optimized": false,
+      "return_code": 1,
+      "expected": "basis_inverse_product",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "basis_matrix",
+      "optimized": false,
+      "return_code": 1,
+      "expected": "basis_matrix",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "basis_determinant",
+      "optimized": false,
+      "return_code": 1,
+      "expected": "basis_determinant",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "core_ignores_basis",
+      "optimized": false,
+      "return_code": 0,
+      "expected": "verification_pass",
+      "accepted_as_intended": true
+    },
+    {
+      "case": "consistent_wrong_partition",
+      "optimized": true,
+      "return_code": 1,
+      "expected": "coefficient_identity",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "inverted_degree_convention",
+      "optimized": true,
+      "return_code": 1,
+      "expected": "wrong_graph_inversion_degree",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "forbidden_nonedge_descent",
+      "optimized": true,
+      "return_code": 1,
+      "expected": "nonpermitted_permutation",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "boolean_degree",
+      "optimized": true,
+      "return_code": 1,
+      "expected": "degree_bound",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "missing_raw_term",
+      "optimized": true,
+      "return_code": 1,
+      "expected": "colouring_table_mismatch",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "basis_inverse",
+      "optimized": true,
+      "return_code": 1,
+      "expected": "basis_inverse_product",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "basis_matrix",
+      "optimized": true,
+      "return_code": 1,
+      "expected": "basis_matrix",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "basis_determinant",
+      "optimized": true,
+      "return_code": 1,
+      "expected": "basis_determinant",
+      "accepted_as_intended": false
+    },
+    {
+      "case": "core_ignores_basis",
+      "optimized": true,
+      "return_code": 0,
+      "expected": "verification_pass",
+      "accepted_as_intended": true
+    },
+    {
+      "case": "independent_wrong_partition",
+      "rejected": true
+    }
+  ],
+  "rejections": 17,
+  "intentional_acceptances": 2,
+  "seconds": 1.7454021670855582
+}

@@ -1,0 +1,22 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "requested_outer_tool_timeout_seconds": 60,
+      "status": "outer tool reported timeout during final mutation suite",
+      "final_suite_completed": false,
+      "partial_log_directory": "logs/interrupted_replay",
+      "subprocess_return_code": null
+    },
+    {
+      "attempt": 2,
+      "requested_outer_tool_timeout_seconds": 180,
+      "status": "outer tool reported timeout during final mutation suite",
+      "final_suite_completed_in_that_invocation": false,
+      "partial_log": "logs/clean_replay/tests_0_6_interrupted.log",
+      "subprocess_return_code": null
+    }
+  ],
+  "resolution": "Final mutation suite on the second clean dataset was rerun in a separate call and passed. All 205 JSON files were subsequently compared byte-for-byte. No uninterrupted replay.py driver pass is claimed.",
+  "completed_final_log": "logs/clean_replay/tests_0_6_completed.log"
+}

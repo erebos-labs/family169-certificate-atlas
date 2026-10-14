@@ -1,0 +1,17 @@
+{
+  "event": "n6_budget_gate",
+  "n_le4_verified_graphs": 23,
+  "n5_verified_graphs": 42,
+  "n5_stage_wall_seconds": 1.7941099779999377,
+  "colour_candidate_growth_ratio": 46.922605714285716,
+  "time_safety_factor": 3,
+  "projected_n6_generate_verify_seconds": 312.55294531727066,
+  "compute_stage_wall_seconds_spent": 3.907834371999911,
+  "budget_seconds": 7200,
+  "n5_peak_child_rss_bytes": 100024320,
+  "memory_projection_factor": 8,
+  "projected_rss_bytes": 800194560,
+  "memory_cap_bytes": 2000000000,
+  "decision": "proceed",
+  "note": "Projection, not proof of resource use; every child also has a hard 2,000,000,000-byte address-space cap on Linux."
+}

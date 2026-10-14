@@ -1,0 +1,30 @@
+{
+  "release_version": "1.0.1",
+  "dataset_version": "1.0.0",
+  "source_repository": "openai/math",
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "original_zip_sha256": "f8d5741320af26b7485c531c57075104ccd07213953f09c2e413480f752354a8",
+  "original_zip_bytes": 880881,
+  "changes": [
+    "current release documentation and CI",
+    "independent review/checker attached",
+    "runtime paths redacted in public log copies",
+    "additional probe CLI adapted to portable package/output paths"
+  ],
+  "unchanged": [
+    "all 205 atlas JSON files",
+    "all six original mathematical/replay scripts",
+    "baseline files",
+    "theorem proof",
+    "historical handoff documents",
+    "Apache-2.0 license"
+  ],
+  "authorship": "AI-assisted implementation and independent agent audit; no human referee or kernel verification claimed",
+  "claim": "synthesized finite witnesses for every naturally labelled h with 0<=n<=6",
+  "excluded_claims": [
+    "paper-specific map",
+    "Lean selectedTable reproduction",
+    "new general theorem",
+    "novelty or priority"
+  ]
+}

@@ -1,0 +1,1 @@
+Historical original execution logs. Absolute runtime workspace/interpreter paths were replaced with symbolic labels for public distribution. Measured values and completion/interruption status remain unchanged. Original byte-identical artifacts are preserved outside this public repository.

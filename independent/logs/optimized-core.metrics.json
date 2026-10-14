@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "-O",
+    "src/verify.py",
+    "--atlas",
+    "atlas",
+    "--skip-basis"
+  ],
+  "started_utc": "2026-10-14T03:02:46.213996+00:00",
+  "elapsed_seconds": 8.111547040985897,
+  "child_user_seconds": 8.051059,
+  "child_system_seconds": 0.035179999999999996,
+  "peak_child_rss_bytes": 28360704,
+  "address_space_limit_bytes": null,
+  "timeout_seconds": 120.0,
+  "timed_out": false,
+  "return_code": 0,
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+}

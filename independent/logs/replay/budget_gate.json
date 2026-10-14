@@ -1,0 +1,8 @@
+{
+  "decision": "proceed",
+  "projected_n6_seconds": 127.13909889119013,
+  "projected_rss_bytes": 207618048,
+  "budget_seconds": 600.0,
+  "memory_cap_bytes": 2000000000,
+  "note": "Conservative projection from measured n=5 stages, not a complexity proof."
+}

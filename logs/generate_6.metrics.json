@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "src/generate.py",
+    "--out",
+    "atlas",
+    "--min-n",
+    "6",
+    "--max-n",
+    "6"
+  ],
+  "started_utc": "2026-10-14T02:31:35.055183+00:00",
+  "elapsed_seconds": 4.329880112999945,
+  "child_user_seconds": 4.6806090000000005,
+  "child_system_seconds": 0.053751999999999994,
+  "peak_child_rss_bytes": 101318656,
+  "address_space_limit_bytes": 2000000000,
+  "timeout_seconds": 7100.0,
+  "timed_out": false,
+  "return_code": 0,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+}

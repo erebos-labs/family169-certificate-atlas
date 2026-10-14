@@ -1,0 +1,8 @@
+{
+  "upstream_path": "LICENSE",
+  "upstream_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "upstream_git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+  "bytes": 11357,
+  "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "local_copy_provenance": "The locally installed Apache-2.0 text with its initial extra newline removed matches the exact upstream Git blob identifier. No other bytes were changed."
+}

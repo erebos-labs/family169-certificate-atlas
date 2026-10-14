@@ -1,0 +1,40 @@
+name: finite-verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python: '3.11'
+          - os: ubuntu-latest
+            python: '3.13'
+          - os: macos-latest
+            python: '3.14'
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Package hashes
+        run: python src/check_hashes.py
+      - name: Full normal replay, basis and 792 corruptions
+        run: python src/replay.py --output "$RUNNER_TEMP/family169-replay" --budget-seconds 600
+      - name: Third independent mathematical implementation
+        run: python independent/independent_audit.py . --result "$RUNNER_TEMP/independent-results.json"
+      - name: Core and all mutations with assertions disabled
+        run: |
+          python -O src/verify.py --atlas atlas --skip-basis
+          python -O src/mutation_tests.py --atlas atlas
+      - name: Additional external CLI corruption probes
+        run: python independent/additional_probes.py . --output "$RUNNER_TEMP/family169-probes"

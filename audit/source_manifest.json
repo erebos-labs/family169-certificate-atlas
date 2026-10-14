@@ -1,0 +1,194 @@
+{
+  "repository": "openai/math",
+  "commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "audit_date_utc": "2026-10-14",
+  "retrieval": "GitHub read-only connector; all six requested files were accessible and read before implementation",
+  "source_files_vendored": false,
+  "upstream_license_vendored_and_blob_checked": true,
+  "notes": [
+    "Git blob SHA-1 identifiers and sizes are included only where the directory/tree response exposed them. Null is deliberately not an invented hash.",
+    "Repository path plus full commit identifies every audited source even when separate blob metadata is omitted.",
+    "This manifest records actual inspected sources, not the entire Lean import closure or bibliography."
+  ],
+  "files": [
+    {
+      "id": "S1",
+      "path": "preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/01-introduction.tex",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/01-introduction.tex",
+      "git_blob_sha1": "e89126f6bb1ff7dbaf7fd0f904d9f186f8493634",
+      "size_bytes": 15941,
+      "required_first_read": true,
+      "anchors": [
+        "main:csf",
+        "main:theorem",
+        "main:witness",
+        "main:path-example"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S2",
+      "path": "preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/06-witness.tex",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/06-witness.tex",
+      "git_blob_sha1": "b49930f6369148e682db748c841a9231996886c8",
+      "size_bytes": 29051,
+      "required_first_read": true,
+      "anchors": [
+        "route:masks",
+        "route:word-energy",
+        "route:algorithm",
+        "route:witness"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S3",
+      "path": "lean/ComparatorChallenges/ElementaryPositivity.lean",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/ComparatorChallenges/ElementaryPositivity.lean",
+      "git_blob_sha1": null,
+      "size_bytes": null,
+      "required_first_read": true,
+      "anchors": [
+        "NaturalUnitIntervalGraph",
+        "Edge",
+        "Nondescent",
+        "graphInversions",
+        "Proper",
+        "coloringAscents",
+        "PermutationWitness",
+        "elementaryPositivityWitness"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S4",
+      "path": "lean/OAI/Combinatorics/Chromatic/Witness/HistoryMainWitness.lean",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Chromatic/Witness/HistoryMainWitness.lean",
+      "git_blob_sha1": "8821ea02ab4f7b80dda62c9bbad26f02859c0519",
+      "size_bytes": 8885,
+      "required_first_read": true,
+      "anchors": [
+        "historyWitness",
+        "WordOK",
+        "wordEnergy",
+        "colorCount",
+        "matrixCount",
+        "witnessCount",
+        "Test",
+        "chromatic_coefficient",
+        "witness_coefficient"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S5",
+      "path": "lean/OAI/Combinatorics/Chromatic/Witness/ElementaryAlphabetRigidity.lean",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Chromatic/Witness/ElementaryAlphabetRigidity.lean",
+      "git_blob_sha1": "34423afdca4c9fae2b5883fdfff136ef4ca70a91",
+      "size_bytes": 6864,
+      "required_first_read": true,
+      "anchors": [
+        "uniform_of_at_n",
+        "expansion_of_test",
+        "uniform_expansion_of_test",
+        "exists_test"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S6",
+      "path": "lean/OAI/Combinatorics/Chromatic/Main.lean",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Chromatic/Main.lean",
+      "git_blob_sha1": "12abe371e589d0b2ca4548b3c90631afb030aa7f",
+      "size_bytes": 1445,
+      "required_first_read": true,
+      "anchors": [
+        "exists_successful_table",
+        "selectedTable",
+        "selectedTable_test",
+        "elementaryPositivityWitness"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S7",
+      "path": "preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/02-graphs.tex",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/02-graphs.tex",
+      "git_blob_sha1": "19f561b75407b506a431701ace7a1c0ccff3f5b9",
+      "size_bytes": 10872,
+      "required_first_read": false,
+      "anchors": [
+        "graph:digits",
+        "graph:reverse",
+        "graph:reciprocity",
+        "graph:reciprocity-eq"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S8",
+      "path": "preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/07-completion.tex",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026/build/sections/07-completion.tex",
+      "git_blob_sha1": "fb4532c9d38f40e53d3ad346e9fc7628272404c0",
+      "size_bytes": 1716,
+      "required_first_read": false,
+      "anchors": [
+        "main:completion"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S9",
+      "path": "lean/OAI/Combinatorics/Chromatic/Model.lean",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Chromatic/Model.lean",
+      "git_blob_sha1": "88184ce94d0c4462d84cf9756daf52443c48f121",
+      "size_bytes": 2032,
+      "required_first_read": false,
+      "anchors": [
+        "NaturalUnitIntervalGraph",
+        "Nondescent",
+        "graphInversions",
+        "coloringAscents",
+        "PermutationWitness"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S10",
+      "path": "lean/docs/169.md",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/docs/169.md",
+      "git_blob_sha1": null,
+      "size_bytes": null,
+      "required_first_read": false,
+      "anchors": [
+        "Scope",
+        "Comparator links"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S11",
+      "path": "history.md",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/history.md",
+      "git_blob_sha1": null,
+      "size_bytes": null,
+      "required_first_read": false,
+      "anchors": [
+        "October 7, 2026"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "S12",
+      "path": "LICENSE",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/LICENSE",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size_bytes": 11357,
+      "required_first_read": false,
+      "anchors": [
+        "Apache License 2.0"
+      ],
+      "status": "read"
+    }
+  ]
+}

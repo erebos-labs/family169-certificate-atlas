@@ -1,0 +1,192 @@
+{
+  "version": "1.0.0",
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "directly_verified_range": [
+    0,
+    6
+  ],
+  "by_n": [
+    {
+      "n": 0,
+      "graphs": 1,
+      "colour_candidates": 1,
+      "proper_colourings": 1,
+      "all_permutations": 1,
+      "permitted_permutations": 1,
+      "monomial_q_entries": 1,
+      "symmetry_comparisons": 0,
+      "nonzero_elementary_q_entries": 1,
+      "graph_check_seconds": 0.0001219329999457841
+    },
+    {
+      "n": 1,
+      "graphs": 1,
+      "colour_candidates": 1,
+      "proper_colourings": 1,
+      "all_permutations": 1,
+      "permitted_permutations": 1,
+      "monomial_q_entries": 1,
+      "symmetry_comparisons": 0,
+      "nonzero_elementary_q_entries": 1,
+      "graph_check_seconds": 5.8899000009660085e-05
+    },
+    {
+      "n": 2,
+      "graphs": 2,
+      "colour_candidates": 8,
+      "proper_colourings": 6,
+      "all_permutations": 4,
+      "permitted_permutations": 3,
+      "monomial_q_entries": 5,
+      "symmetry_comparisons": 5,
+      "nonzero_elementary_q_entries": 3,
+      "graph_check_seconds": 0.00013473199999225471
+    },
+    {
+      "n": 3,
+      "graphs": 5,
+      "colour_candidates": 135,
+      "proper_colourings": 81,
+      "all_permutations": 30,
+      "permitted_permutations": 15,
+      "monomial_q_entries": 51,
+      "symmetry_comparisons": 102,
+      "nonzero_elementary_q_entries": 13,
+      "graph_check_seconds": 0.0006515730000273834
+    },
+    {
+      "n": 4,
+      "graphs": 14,
+      "colour_candidates": 3584,
+      "proper_colourings": 1780,
+      "all_permutations": 336,
+      "permitted_permutations": 105,
+      "monomial_q_entries": 655,
+      "symmetry_comparisons": 1965,
+      "nonzero_elementary_q_entries": 65,
+      "graph_check_seconds": 0.008999302000120224
+    },
+    {
+      "n": 5,
+      "graphs": 42,
+      "colour_candidates": 131250,
+      "proper_colourings": 55125,
+      "all_permutations": 5040,
+      "permitted_permutations": 945,
+      "monomial_q_entries": 9493,
+      "symmetry_comparisons": 37972,
+      "nonzero_elementary_q_entries": 336,
+      "graph_check_seconds": 0.24354672700007995
+    },
+    {
+      "n": 6,
+      "graphs": 132,
+      "colour_candidates": 6158592,
+      "proper_colourings": 2221506,
+      "all_permutations": 95040,
+      "permitted_permutations": 10395,
+      "monomial_q_entries": 147102,
+      "symmetry_comparisons": 735510,
+      "nonzero_elementary_q_entries": 1788,
+      "graph_check_seconds": 10.577523585999643
+    }
+  ],
+  "totals": {
+    "graphs": 197,
+    "colour_candidates": 6293571,
+    "proper_colourings": 2278500,
+    "all_permutations": 100452,
+    "permitted_permutations": 11465,
+    "monomial_q_entries": 157308,
+    "symmetry_comparisons": 775554,
+    "nonzero_elementary_q_entries": 2207
+  },
+  "original_completed_stage_wall_seconds": 35.55519221599968,
+  "original_peak_child_rss_bytes": 104214528,
+  "negative_mutations_rejected": 792,
+  "inapplicable_valid_partition_mutations": 2,
+  "positive_regression_cases": 6,
+  "dataset_files": 205,
+  "dataset_bytes": 8820207,
+  "basis": [
+    {
+      "event": "basis_verified",
+      "n": 0,
+      "dimension": 1,
+      "determinant": 1
+    },
+    {
+      "event": "basis_verified",
+      "n": 1,
+      "dimension": 1,
+      "determinant": 1
+    },
+    {
+      "event": "basis_verified",
+      "n": 2,
+      "dimension": 2,
+      "determinant": -1
+    },
+    {
+      "event": "basis_verified",
+      "n": 3,
+      "dimension": 3,
+      "determinant": -1
+    },
+    {
+      "event": "basis_verified",
+      "n": 4,
+      "dimension": 5,
+      "determinant": 1
+    },
+    {
+      "event": "basis_verified",
+      "n": 5,
+      "dimension": 7,
+      "determinant": -1
+    },
+    {
+      "event": "basis_verified",
+      "n": 6,
+      "dimension": 11,
+      "determinant": -1
+    }
+  ],
+  "status": {
+    "finite_certificate": "passed exhaustive exact Python verification",
+    "separate_implementation": "yes; same author/session, not an independent reviewer",
+    "independent_external_review": "not performed",
+    "Lean_compilation": "not performed",
+    "general_paper_proof": "not audited as a whole",
+    "novelty": "not established",
+    "Atlas_execution": "not performed"
+  },
+  "clean_replay": {
+    "event": "segmented_clean_replay_pass",
+    "max_n": 6,
+    "graphs": 197,
+    "byte_identical_dataset_files": 205,
+    "completed_stage_count": 8,
+    "completed_stage_wall_seconds": 35.75542274700024,
+    "peak_child_rss_bytes": 103944192,
+    "note": "Two all-in-one tool invocations were externally interrupted during final mutation tests. The second clean dataset passed its final mutation suite in a separate call. This is NOT a successful uninterrupted replay.py-driver run.",
+    "dataset_bytes": 8820207
+  },
+  "supplementary_no_basis_optimized_python_check": {
+    "status": "passed",
+    "graphs": 197,
+    "command": [
+      "python",
+      "-O",
+      "-u",
+      "src/verify.py",
+      "--atlas",
+      "atlas",
+      "--skip-basis"
+    ],
+    "stage_wall_seconds": 15.215008287000046,
+    "peak_child_rss_bytes": 112005120,
+    "log": "logs/verify_without_basis.log"
+  },
+  "all_recorded_completed_stages_peak_child_rss_bytes": 112005120
+}

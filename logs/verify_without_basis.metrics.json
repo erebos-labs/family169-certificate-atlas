@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python",
+    "-O",
+    "-u",
+    "src/verify.py",
+    "--atlas",
+    "atlas",
+    "--skip-basis"
+  ],
+  "started_utc": "2026-10-14T02:49:38.595992+00:00",
+  "elapsed_seconds": 15.215008287000046,
+  "child_user_seconds": 16.501237,
+  "child_system_seconds": 0.25310299999999997,
+  "peak_child_rss_bytes": 112005120,
+  "address_space_limit_bytes": 2000000000,
+  "timeout_seconds": 6900.0,
+  "timed_out": false,
+  "return_code": 0,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+}

@@ -1,0 +1,11 @@
+{
+  "event": "segmented_clean_replay_pass",
+  "max_n": 6,
+  "graphs": 197,
+  "byte_identical_dataset_files": 205,
+  "completed_stage_count": 8,
+  "completed_stage_wall_seconds": 35.75542274700024,
+  "peak_child_rss_bytes": 103944192,
+  "note": "Two all-in-one tool invocations were externally interrupted during final mutation tests. The second clean dataset passed its final mutation suite in a separate call. This is NOT a successful uninterrupted replay.py-driver run.",
+  "dataset_bytes": 8820207
+}
