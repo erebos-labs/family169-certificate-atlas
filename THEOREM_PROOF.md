@@ -273,8 +273,10 @@ triangular embedding, exact-mask cancellation, or the general Lean historyWitnes
 
 Computational dependencies are the included Python programs, CPython and its
 standard library, and the operating-system/runtime execution. No third-party
-solver or numerical tolerance is used. The separate code paths reduce correlated
+solver or numerical tolerance is used. The separate code paths described in this authoring-stage proof reduce correlated
 implementation risk, but their author was the same assistant in the same session.
-There has been no independent external review and no kernel formalization of the
-checker or of its correspondence with the source definition. These qualifications
-are part of the result, not hidden assumptions.
+A subsequent, separately implemented AI audit is documented in
+[independent/REVIEW.md](independent/REVIEW.md) and the release README. This updates
+the authoring-era review status; it does not claim human peer review or kernel
+formalization of the checker or its correspondence with the source definition.
+These qualifications are part of the result, not hidden assumptions.
